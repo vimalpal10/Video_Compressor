@@ -1,0 +1,34 @@
+name: video_compressor
+description: Video compression Flutter app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Video compression - compatible with Dart 2.19
+  video_compress: ^3.1.1
+  
+  # File picking - older version
+  file_picker: ^4.6.1
+  
+  # Permissions - older version
+  permission_handler: ^9.2.0
+  
+  # Path
+  path_provider: ^2.0.11
+  
+  # UI
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
